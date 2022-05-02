@@ -1,11 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/myt8324ji2zh/public_html/barzam.hightowncommunities.com
-    - /bin/cp -R css $DEPLOYPATH
-    - /bin/cp -R fonts $DEPLOYPATH
-    - /bin/cp -R images $DEPLOYPATH
-    - /bin/cp -R js $DEPLOYPATH
-    - /bin/cp footer.php $DEPLOYPATH
-    - /bin/cp header.php $DEPLOYPATH
-    - /bin/cp index.php $DEPLOYPATH
+    - export DEPLOYPATH=/home/myt8324ji2zh/public_html/barzam.hightowncommunities.com/
+    - /bin/cp -R * $DEPLOYPATH
+    
