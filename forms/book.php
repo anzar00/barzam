@@ -101,6 +101,7 @@ if (!empty($_POST)) {
 
         if (mail($toEmail, $emailSubject, $body, $headers)) {
             $sentMessage = "Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!";
+            header('location: https://barzam.hightowncommunities.com/#book-a-table');
         } else {
             $errorMessage = "<p style='color: red;'>Oops, something went wrong. Please try again later</p>";
         }
