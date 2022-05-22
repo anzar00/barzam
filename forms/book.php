@@ -20,9 +20,6 @@ if (!empty($_POST)) {
     $admessage=$_POST['message'];
     $message = "
           <html>
-          <head>
-          <title>Birthday Reminders for August</title>
-          </head>
           <body>
           Room booking with following details from Guest - $name.
           Email - $email
@@ -57,7 +54,7 @@ if (!empty($_POST)) {
               <td>Rooms Required</td>
               <td>$roooms</td>
               <td>Message</td>
-              <td>$message</td>
+              <td>$admessage</td>
               </tr> 
           </tbody>
           </table>  
