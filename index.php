@@ -22,7 +22,7 @@
       <div class="row">
         <div class="col-lg-8">
           <h1>Welcome to <span>Barzam</span> Resorts</h1>
-          <h2>Tag Line</h2>
+          <h2>By Hightown Communities</h2>
 
           <div class="btns">
             <a href="#menu" class="btn-menu animated fadeInUp scrollto">Our Services</a>
