@@ -508,7 +508,7 @@
           <p>Book Rooms</p>
         </div>
         <script src="https://www.google.com/recaptcha/api.js"></script>
-        <form action="forms/book.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100" id="contact-form">
+        <form action="forms/book.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100" id="book-form">
         <?php echo((!empty($errorMessage)) ? $errorMessage : '') ?>
           <div class="row">
             <div class="col-lg-4 col-md-6 form-group">
@@ -583,7 +583,7 @@
                 }
             };
 
-            const form = document.getElementById('contact-form');
+            const form = document.getElementById('book-form');
 
             form.addEventListener('submit', function (event) {
                 const formValues = {
@@ -608,7 +608,7 @@
             }, false);
 
             function onRecaptchaSuccess () {
-                document.getElementById('contact-form').submit()
+                document.getElementById('book-form').submit()
             }
         </script>
 
@@ -749,7 +749,7 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form" id="contact-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -769,8 +769,56 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button
+                class="g-recaptcha"
+                type="submit"
+                data-sitekey="6Ld4ugwgAAAAACW18LbWjPXW8BJDEmcNEOBmx3Np"
+                data-callback='onRecaptchaSuccess'>Send Message</button></div>
             </form>
+
+            <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+            <script>
+                const constraints = {
+                    name: {
+                        presence: {allowEmpty: false}
+                    },
+                    email: {
+                        presence: {allowEmpty: false},
+                        email: true
+                    },
+                    message: {
+                        presence: {allowEmpty: false}
+                    }
+                };
+
+                const form = document.getElementById('contact-form');
+
+                form.addEventListener('submit', function (event) {
+                    const formValues = {
+                        name: form.elements.name.value,
+                        email: form.elements.email.value,
+                        message: form.elements.message.value
+                    };
+
+                    const errors = validate(formValues, constraints);
+
+                    if (errors) {
+                        event.preventDefault();
+                        const errorMessage = Object
+                            .values(errors)
+                            .map(function (fieldValues) {
+                                return fieldValues.join(', ')
+                            })
+                            .join("\n");
+
+                        alert(errorMessage);
+                    }
+                }, false);
+
+                function onRecaptchaSuccess () {
+                    document.getElementById('contact-form').submit()
+                }
+            </script>
 
           </div>
 
