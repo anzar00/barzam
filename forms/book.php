@@ -21,8 +21,8 @@ if (!empty($_POST)) {
     $message = "
           <html>
           <body>
-          Room booking with following details from Guest - $name.
-          Email - $email
+          Room booking with following details from Guest - $name.<br>
+          Email - $email<br><br>
           <table>                    
           <tbody>    
               <tr>
