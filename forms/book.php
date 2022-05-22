@@ -2,6 +2,7 @@
 
 $errors = [];
 $errorMessage = '';
+$sentMessage = '';
 
 $secret = '6Ld4ugwgAAAAANXk-akjeYFOCT1TOzI6gm8BAoEg';
 
@@ -99,7 +100,7 @@ if (!empty($_POST)) {
         $body = join(PHP_EOL, $bodyParagraphs);
 
         if (mail($toEmail, $emailSubject, $body, $headers)) {
-            header('Location: thank-you.html');
+            $sentMessage = "Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!";
         } else {
             $errorMessage = "<p style='color: red;'>Oops, something went wrong. Please try again later</p>";
         }

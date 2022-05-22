@@ -559,7 +559,7 @@
           <div class="mb-3">
             <div class="loading">Loading</div>
             <div class="error-message"></div>
-            <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
+            <div class="sent-message"><?php echo $sentMessage?></div>
           </div>
           <div class="text-center">
               <button 
