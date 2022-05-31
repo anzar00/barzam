@@ -1,3 +1,7 @@
+<?php
+$isHome = true;
+$isGallery = false;
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,17 +16,17 @@
 
 <body>
 
-  <?php include 'topbar.php'?>
+  <?php include 'topbar.php' ?>
 
-  <?php include 'navbar.php'?>
+  <?php include 'navbar.php' ?>
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
       <div class="row">
         <div class="col-lg-8">
-          <h1>Welcome to <span>Barzam</span> Resorts</h1>
-          <h2>By Hightown Communities</h2>
+          <h1>Welcome to <span>Barzam Resorts</span></h1>
+          <h2>By <span>Hightown Communities</span></h2>
 
           <div class="btns">
             <a href="#menu" class="btn-menu animated fadeInUp scrollto">Our Services</a>
@@ -53,28 +57,28 @@
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
             <h3>About</h3>
             <p class="fst-italic">
-                Barzam Resorts, Srinagar offers accommodation with a restaurant, free private parking, and a garden in 
-                Srinagar, 14 km from Lal Chowk Ghantaghar.
+              Barzam Resorts, Srinagar offers accommodation with a restaurant, free private parking, and a garden in
+              Srinagar, 14 km from Lal Chowk Ghantaghar.
             </p>
             <ul>
-              <li><i class="bi bi-check-circle"></i> The 3-star hotel offers city Dal view from each room, as well as access to
-               balcony and garden.</li>
-              <li><i class="bi bi-check-circle"></i> A 24-hour front desk, airport shuttles, room service, and free WiFi are available 
-              throughout the facility.</li>
-              <li><i class="bi bi-check-circle"></i> The hotel's rooms include a seating area, a flat-screen TV with satellite 
-              channels, a private bathroom with a shower, and slippers, apart from being naturally ventilated.</li>
+              <li><i class="bi bi-check-circle"></i> The 3-star hotel offers city Dal view, as well as access to
+                balcony and garden.</li>
+              <li><i class="bi bi-check-circle"></i> A 24-hour front desk, airport shuttles, room service, and free WiFi are available
+                throughout the facility.</li>
+              <li><i class="bi bi-check-circle"></i> The hotel's rooms include a seating area, a flat-screen TV with satellite
+                channels, a private bathroom with a shower, and slippers, apart from being naturally ventilated.</li>
               <li><i class="bi bi-check-circle"></i>Bed linen and towels are provided in all rooms at Barzam Resorts Srinagar.</li>
               <li><i class="bi bi-check-circle"></i>Barzam Resorts provides guests with Delux Rooms and Premium Cottages/Rooms with Garden, as well as free parking.</li>
-              <li><i class="bi bi-check-circle"></i>Barzam Resorts Srinagar is 6.8 kilometres from Nehru Park and 9.7 kilometres from Pari Mahal. 
+              <li><i class="bi bi-check-circle"></i>Barzam Resorts Srinagar is 6.8 kilometres from Nehru Park and 9.7 kilometres from Pari Mahal.
                 The nearest airport is Srinagar Airport, which is 19.3 kilometres away. </li>
-              <li><i class="bi bi-check-circle"></i>Hazratbal Shrine is 3.1 kilometres away, whereas Indra Gandhi Memorial Tulip Garden and Pari 
+              <li><i class="bi bi-check-circle"></i>Hazratbal Shrine is 3.1 kilometres away, whereas Indra Gandhi Memorial Tulip Garden and Pari
                 Mahal are 6 kilometres and 11 kilometres away, respectively. </li>
-              <li><i class="bi bi-check-circle"></i>Shalimar Garden is 950 metres away from the resort, and the famed Nishat Garden is 3.4 kilometres 
+              <li><i class="bi bi-check-circle"></i>Shalimar Garden is 950 metres away from the resort, and the famed Nishat Garden is 3.4 kilometres
                 from Barzam Resorts. </li>
-              <li><i class="bi bi-check-circle"></i>In addition, Cheshmashahi Garden is 9.1 kilometres away, while Harwan and Dachigam wild life 
-                sanctuary are 4.5 kilometres and 6 kilometres away, respectively.</li>
+              <li><i class="bi bi-check-circle"></i>In addition, Cheshmashahi Garden is 9.1 kilometres away, while Harwan and Dachigam National
+                Park are 4.5 kilometres and 6 kilometres away, respectively.</li>
             </ul>
-                
+
           </div>
         </div>
 
@@ -97,7 +101,7 @@
             <div class="box" data-aos="zoom-in" data-aos-delay="100">
               <span>01</span>
               <h4>Outdoors</h4>
-              <p>Lush green garden</p>
+              <p>Lush green garden<br>Bon Fire</p>
             </div>
           </div>
 
@@ -113,12 +117,12 @@
             <div class="box" data-aos="zoom-in" data-aos-delay="300">
               <span>03</span>
               <h4>Parking</h4>
-              <p>Free on-site privaye parking (on reservation)</p>
+              <p>Free on-site private parking (on reservation)</p>
             </div>
           </div>
-        
+
         </div>
-        
+
         <div class="row mt-md-2">
 
           <div class="col-lg-4 mt-4 mt-lg-0">
@@ -155,8 +159,7 @@
         <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="menu-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-services">Services</li>
+              <li data-filter=".filter-services" class="filter-active">Services</li>
               <li data-filter=".filter-lang">Languages Spoken</li>
               <li data-filter=".filter-rtc">Five Reasons to choose Barzam Resort</li>
             </ul>
@@ -217,61 +220,61 @@
             <div class="menu-content">
               <a href="#menu">Room Service</a>
             </div>
-          </div>     
-          
+          </div>
+
           <div class="col-lg-6 menu-item filter-lang">
             <div class="menu-content">
               <a href="#menu">English</a>
             </div>
-          </div>     
+          </div>
 
           <div class="col-lg-6 menu-item filter-lang">
             <div class="menu-content">
               <a href="#menu">Hindi</a>
             </div>
-          </div>     
+          </div>
 
           <div class="col-lg-6 menu-item filter-lang">
             <div class="menu-content">
               <a href="#menu">Urdu</a>
             </div>
-          </div>     
+          </div>
 
           <div class="col-lg-6 menu-item filter-lang">
             <div class="menu-content">
               <a href="#menu">Kashmiri</a>
             </div>
-          </div>     
+          </div>
 
           <div class="col-lg-6 menu-item filter-rtc">
             <div class="menu-content">
               <a href="#menu">Prices you can't beat!</a>
             </div>
-          </div>  
-          
+          </div>
+
           <div class="col-lg-6 menu-item filter-rtc">
             <div class="menu-content">
               <a href="#menu">Safe Booking</a>
             </div>
-          </div> 
+          </div>
 
           <div class="col-lg-6 menu-item filter-rtc">
             <div class="menu-content">
               <a href="#menu">Manage your bookings online</a>
             </div>
-          </div> 
+          </div>
 
           <div class="col-lg-6 menu-item filter-rtc">
             <div class="menu-content">
               <a href="#menu">English speaking staff</a>
             </div>
-          </div> 
+          </div>
 
           <div class="col-lg-6 menu-item filter-rtc">
             <div class="menu-content">
               <a href="#menu">Great location and facilities for couples</a>
             </div>
-          </div> 
+          </div>
 
         </div>
       </div>
@@ -311,52 +314,52 @@
                   <div class="col-lg-8 details order-2 order-lg-1">
                     <h3>Delux Room</h3>
                     <ul class="fst-italic">
-                        <li>Check In: 1400 Hrs | Check Out: 1200 Hrs</li>
-                        <li>All rates are subject to change without any prior notice.</li>
-                        <li>All government levies and taxes applicable are extra.</li>
-                        <li>Any increase in government levies and taxes at any point of time shall be charged extra.</li>
+                      <li>Check In: 1400 Hrs | Check Out: 1200 Hrs</li>
+                      <li>All rates are subject to change without any prior notice.</li>
+                      <li>All government levies and taxes applicable are extra.</li>
+                      <li>Any increase in government levies and taxes at any point of time shall be charged extra.</li>
                     </ul>
-                    <table class="table table-dark table-hover">                    
-                        <thead>
-                            <tr>
-                                <th scope="col">Plan</th>
-                                <th scope="col">EPAI</th>
-                                <th scope="col">CPAI</th>
-                                <th scope="col">MAPAI</th>
-                                <th scope="col">APAI</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">Delux Room</th>
-                                <td>3,000</td>
-                                <td>4,000</td>
-                                <td>4,900</td>
-                                <td>5,500</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Extra Bed</th>
-                                <td>1,000</td>
-                                <td>1,500</td>
-                                <td>2,000</td>
-                                <td>2,500</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Child Without Bed</th>
-                                <td>700</td>
-                                <td>1,000</td>
-                                <td>1,500</td>
-                                <td>2,000</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Child Without Bed (Upto 5 Years)</th>
-                                <td>Complimentary</td>
-                                <td>Complimentary</td>
-                                <td>Complimentary</td>
-                                <td>Complimentary</td>
-                            </tr>
-                        </tbody>
-                    </table>            
+                    <table class="table table-dark table-hover my-table">
+                      <thead>
+                        <tr>
+                          <th scope="col">Plan</th>
+                          <th scope="col">EPAI</th>
+                          <th scope="col">CPAI</th>
+                          <th scope="col">MAPAI</th>
+                          <th scope="col">APAI</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">Delux Room</th>
+                          <td>3,000</td>
+                          <td>4,000</td>
+                          <td>4,900</td>
+                          <td>5,500</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Extra Bed</th>
+                          <td>1,000</td>
+                          <td>1,500</td>
+                          <td>2,000</td>
+                          <td>2,500</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Child Without Bed</th>
+                          <td>700</td>
+                          <td>1,000</td>
+                          <td>1,500</td>
+                          <td>2,000</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Child Without Bed (Upto 5 Years)</th>
+                          <td>Complimentary</td>
+                          <td>Complimentary</td>
+                          <td>Complimentary</td>
+                          <td>Complimentary</td>
+                        </tr>
+                      </tbody>
+                    </table>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
                     <img src="assets/img/room1.webp" alt="" class="img-fluid">
@@ -369,52 +372,52 @@
                   <div class="col-lg-8 details order-2 order-lg-1">
                     <h3>Premium Room</h3>
                     <ul class="fst-italic">
-                        <li>Check In: 1400 Hrs | Check Out: 1200 Hrs</li>
-                        <li>All rates are subject to change without any prior notice.</li>
-                        <li>All government levies and taxes applicable are extra.</li>
-                        <li>Any increase in government levies and taxes at any point of time shall be charged extra.</li>
+                      <li>Check In: 1400 Hrs | Check Out: 1200 Hrs</li>
+                      <li>All rates are subject to change without any prior notice.</li>
+                      <li>All government levies and taxes applicable are extra.</li>
+                      <li>Any increase in government levies and taxes at any point of time shall be charged extra.</li>
                     </ul>
-                    <table class="table table-dark table-hover">                    
-                        <thead>
-                            <tr>
-                                <th scope="col">Plan</th>
-                                <th scope="col">EPAI</th>
-                                <th scope="col">CPAI</th>
-                                <th scope="col">MAPAI</th>
-                                <th scope="col">APAI</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">Premium Room</th>
-                                <td>4,000</td>
-                                <td>4,600</td>
-                                <td>5,600</td>
-                                <td>6,800</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Extra Bed</th>
-                                <td>1,000</td>
-                                <td>1,500</td>
-                                <td>2,000</td>
-                                <td>2,500</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Child Without Bed</th>
-                                <td>700</td>
-                                <td>1,000</td>
-                                <td>1,500</td>
-                                <td>2,000</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Child Without Bed (Upto 5 Years)</th>
-                                <td>Complimentary</td>
-                                <td>Complimentary</td>
-                                <td>Complimentary</td>
-                                <td>Complimentary</td>
-                            </tr>
-                        </tbody>
-                    </table> 
+                    <table class="table table-dark table-hover my-table">
+                      <thead>
+                        <tr>
+                          <th scope="col">Plan</th>
+                          <th scope="col">EPAI</th>
+                          <th scope="col">CPAI</th>
+                          <th scope="col">MAPAI</th>
+                          <th scope="col">APAI</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">Premium Room</th>
+                          <td>4,000</td>
+                          <td>4,600</td>
+                          <td>5,600</td>
+                          <td>6,800</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Extra Bed</th>
+                          <td>1,000</td>
+                          <td>1,500</td>
+                          <td>2,000</td>
+                          <td>2,500</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Child Without Bed</th>
+                          <td>700</td>
+                          <td>1,000</td>
+                          <td>1,500</td>
+                          <td>2,000</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Child Without Bed (Upto 5 Years)</th>
+                          <td>Complimentary</td>
+                          <td>Complimentary</td>
+                          <td>Complimentary</td>
+                          <td>Complimentary</td>
+                        </tr>
+                      </tbody>
+                    </table>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
                     <img src="assets/img/room2.webp" alt="" class="img-fluid">
@@ -426,52 +429,52 @@
                   <div class="col-lg-8 details order-2 order-lg-1">
                     <h3>Cottage</h3>
                     <ul class="fst-italic">
-                        <li>Check In: 1400 Hrs | Check Out: 1200 Hrs</li>
-                        <li>All rates are subject to change without any prior notice.</li>
-                        <li>All government levies and taxes applicable are extra.</li>
-                        <li>Any increase in government levies and taxes at any point of time shall be charged extra.</li>
+                      <li>Check In: 1400 Hrs | Check Out: 1200 Hrs</li>
+                      <li>All rates are subject to change without any prior notice.</li>
+                      <li>All government levies and taxes applicable are extra.</li>
+                      <li>Any increase in government levies and taxes at any point of time shall be charged extra.</li>
                     </ul>
-                    <table class="table table-dark table-hover">                    
-                        <thead>
-                            <tr>
-                                <th scope="col">Plan</th>
-                                <th scope="col">EPAI</th>
-                                <th scope="col">CPAI</th>
-                                <th scope="col">MAPAI</th>
-                                <th scope="col">APAI</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">Cottage</th>
-                                <td>4,000</td>
-                                <td>4,600</td>
-                                <td>5,600</td>
-                                <td>6,800</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Extra Bed</th>
-                                <td>1,000</td>
-                                <td>1,500</td>
-                                <td>2,000</td>
-                                <td>2,500</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Child Without Bed</th>
-                                <td>700</td>
-                                <td>1,000</td>
-                                <td>1,500</td>
-                                <td>2,000</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Child Without Bed (Upto 5 Years)</th>
-                                <td>Complimentary</td>
-                                <td>Complimentary</td>
-                                <td>Complimentary</td>
-                                <td>Complimentary</td>
-                            </tr>
-                        </tbody>
-                    </table> 
+                    <table class="table table-dark table-hover my-table">
+                      <thead>
+                        <tr>
+                          <th scope="col">Plan</th>
+                          <th scope="col">EPAI</th>
+                          <th scope="col">CPAI</th>
+                          <th scope="col">MAPAI</th>
+                          <th scope="col">APAI</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">Cottage</th>
+                          <td>4,000</td>
+                          <td>4,600</td>
+                          <td>5,600</td>
+                          <td>6,800</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Extra Bed</th>
+                          <td>1,000</td>
+                          <td>1,500</td>
+                          <td>2,000</td>
+                          <td>2,500</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Child Without Bed</th>
+                          <td>700</td>
+                          <td>1,000</td>
+                          <td>1,500</td>
+                          <td>2,000</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Child Without Bed (Upto 5 Years)</th>
+                          <td>Complimentary</td>
+                          <td>Complimentary</td>
+                          <td>Complimentary</td>
+                          <td>Complimentary</td>
+                        </tr>
+                      </tbody>
+                    </table>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
                     <img src="assets/img/room3.webp" alt="" class="img-fluid">
@@ -483,10 +486,10 @@
                   <div class="col-lg-12 details order-2 order-lg-1">
                     <h3>Cancellation Pollicy</h3>
                     <ul class="fst-italic">
-                        <li>20% Retention Charges on total booking amount on amendment/plan change.</li>
-                        <li>25% Retention Charges if cancelled 15 days prior to arrival.</li>
-                        <li>50% Retention Charges if cancelled between 14 days and 7 days prior to arrival.</li>
-                        <li>100% Retention Charges if cancelled 6 days or less prior to arrival.</li>
+                      <li>20% Retention Charges on total booking amount on amendment/plan change.</li>
+                      <li>25% Retention Charges if cancelled 15 days prior to arrival.</li>
+                      <li>50% Retention Charges if cancelled between 14 days and 7 days prior to arrival.</li>
+                      <li>100% Retention Charges if cancelled 6 days or less prior to arrival.</li>
                     </ul>
                   </div>
                 </div>
@@ -499,6 +502,91 @@
     </section>
     <!-- End Specials Section -->
 
+    <!-- ======= Transport Section ======= -->
+    <section id="transport" class="specials">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <p>Transport Facility</p>
+        </div>
+
+        <p data-aos="fade-up" data-aos-delay="100">
+          We offer various modes of transportation at competitive rates. Barzam Resort provides a variety of
+          transportation choices for its guests, including private airport shuttles and taxis. When you stay
+          with us, you can travel in comfort, enjoy a sightseeing tour, or just commute between your destination
+          and your business. Groups can also enjoy the convenience of local transportation in an air-conditioned
+          luxury minibus or coach, which provides adequate space to relax while on the road.
+        </p>
+
+        <table class="table table-dark table-hover my-table">
+          <thead>
+            <tr>
+              <th scope="col">VEHICLE TYPE</th>
+              <th scope="col">SEATING CAPACITY</th>
+              <th scope="col">RATE PER DAY FOR NON-AC VEHICLE IN RUPEES </th>
+              <th scope="col">RATE PER DAY FOR AC VEHICLE IN RUPEES</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">ETIOS/SWIFT/DESIRE</th>
+              <td>4+1</td>
+              <td>2200</td>
+              <td>2500</td>
+            </tr>
+            <tr>
+              <th scope="row">TAVERA</th>
+              <td>7+1</td>
+              <td>2900</td>
+              <td>3300</td>
+            </tr>
+            <tr>
+              <th scope="row">INNOVA</th>
+              <td>7+1</td>
+              <td>3500</td>
+              <td>3800</td>
+            </tr>
+            <tr>
+              <th scope="row">TEMPO TRAVELLER</th>
+              <td>14+1</td>
+              <td>4000</td>
+              <td>4500</td>
+            </tr>
+            <tr>
+              <th scope="row">TEMPO TRAVELLER</th>
+              <td>17+1</td>
+              <td>5000</td>
+              <td>5500</td>
+            </tr>
+            <tr>
+              <th scope="row">TATA WINGER</th>
+              <td>12+1</td>
+              <td>3500</td>
+              <td>4000</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <!-- End Transport Section -->
+
+        <!-- ======= Transport Section ======= -->
+        <section id="transport" class="specials">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <p>Payment Policy</p>
+        </div>
+
+        <p data-aos="fade-up" data-aos-delay="100">
+          An amount equivalent to 30 % of the proforma invoice is to be paid in advance enabling us to 
+          confirm your FIT or GIT bookings within 48 hours and 70% payment before the date of check in 
+          otherwise booking will be released automatically without any further intimation from our end.
+        </p>
+      </div>
+    </section>
+    <!-- End Transport Section -->
+
     <!-- ======= Book Room Section ======= -->
     <section id="book-a-table" class="book-a-table">
       <div class="container" data-aos="fade-up">
@@ -509,7 +597,7 @@
         </div>
         <script src="https://www.google.com/recaptcha/api.js"></script>
         <form action="forms/book.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100" id="book-form">
-        <?php echo((!empty($errorMessage)) ? $errorMessage : '') ?>
+          <?php echo ((!empty($errorMessage)) ? $errorMessage : '') ?>
           <div class="row">
             <div class="col-lg-4 col-md-6 form-group">
               <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
@@ -559,57 +647,60 @@
           <div class="mb-3">
             <div class="loading">Loading</div>
             <div class="error-message"></div>
-            <div class="sent-message"><?php echo $sentMessage?></div>
+            <div class="sent-message"><?php echo $sentMessage ?></div>
           </div>
           <div class="text-center">
-              <button 
-                class="g-recaptcha"
-                type="submit"
-                data-sitekey="6Ld4ugwgAAAAACW18LbWjPXW8BJDEmcNEOBmx3Np"
-                data-callback='onRecaptchaSuccess'>Book Rooms</button></div>
+            <button class="g-recaptcha" type="submit" data-sitekey="6Ld4ugwgAAAAACW18LbWjPXW8BJDEmcNEOBmx3Np" data-callback='onRecaptchaSuccess'>Book Rooms</button>
+          </div>
         </form>
         <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
         <script>
-            const constraints = {
-                name: {
-                    presence: {allowEmpty: false}
-                },
-                email: {
-                    presence: {allowEmpty: false},
-                    email: true
-                },
-                message: {
-                    presence: {allowEmpty: false}
-                }
+          const constraints = {
+            name: {
+              presence: {
+                allowEmpty: false
+              }
+            },
+            email: {
+              presence: {
+                allowEmpty: false
+              },
+              email: true
+            },
+            message: {
+              presence: {
+                allowEmpty: false
+              }
+            }
+          };
+
+          const form = document.getElementById('book-form');
+
+          form.addEventListener('submit', function(event) {
+            const formValues = {
+              name: form.elements.name.value,
+              email: form.elements.email.value,
+              message: form.elements.message.value
             };
 
-            const form = document.getElementById('book-form');
+            const errors = validate(formValues, constraints);
 
-            form.addEventListener('submit', function (event) {
-                const formValues = {
-                    name: form.elements.name.value,
-                    email: form.elements.email.value,
-                    message: form.elements.message.value
-                };
+            if (errors) {
+              event.preventDefault();
+              const errorMessage = Object
+                .values(errors)
+                .map(function(fieldValues) {
+                  return fieldValues.join(', ')
+                })
+                .join("\n");
 
-                const errors = validate(formValues, constraints);
-
-                if (errors) {
-                    event.preventDefault();
-                    const errorMessage = Object
-                        .values(errors)
-                        .map(function (fieldValues) {
-                            return fieldValues.join(', ')
-                        })
-                        .join("\n");
-
-                    alert(errorMessage);
-                }
-            }, false);
-
-            function onRecaptchaSuccess () {
-                document.getElementById('book-form').submit()
+              alert(errorMessage);
             }
+          }, false);
+
+          function onRecaptchaSuccess() {
+            document.getElementById('book-form').submit()
+          }
         </script>
 
       </div>
@@ -725,22 +816,30 @@
                 <h4>Location:</h4>
                 <p>62, Shalimar Ghat, Fore Shore Link Road, Shalimar, Srinagar - 190025</p>
               </div>
-              
+
               <br>
               <h2> For reservations </h2>
-              
+
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <a href="mailto:barzam@hightowncommunities.com"><p>barzam@hightowncommunities.com</p></a>
-                <a href="mailto:hightowncommunities@gmail.com"><p>hightowncommunities@gmail.com</p></a>
+                <a href="mailto:barzam@hightowncommunities.com">
+                  <p>barzam@hightowncommunities.com</p>
+                </a>
+                <a href="mailto:hightowncommunities@gmail.com">
+                  <p>hightowncommunities@gmail.com</p>
+                </a>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <a href="tel:01944026395"><p>0194 4026 395</p></a>
-                <a href="tel:1800886660"><p>1800 886 660</p></a>
+                <a href="tel:01944026395">
+                  <p>0194 4026 395</p>
+                </a>
+                <a href="tel:1800886660">
+                  <p>1800 886 660</p>
+                </a>
               </div>
 
             </div>
