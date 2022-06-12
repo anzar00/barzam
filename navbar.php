@@ -14,16 +14,16 @@
         } else
           echo "<li><a class='nav-link scrollto' href='./index.php#hero'>Home</a></li>";
         ?>
-        <li><a class="nav-link scrollto" href="#about">About</a></li>
-        <li><a class="nav-link scrollto" href="#menu">Our Services</a></li>
-        <li><a class="nav-link scrollto" href="#specials">Our Tarrif</a></li>
+        <li><a class="nav-link scrollto" href="./index.php#about">About</a></li>
+        <li><a class="nav-link scrollto" href="./index.php#menu">Our Services</a></li>
+        <li><a class="nav-link scrollto" href="./index.php#specials">Our Tarrif</a></li>
         <?php
         if ($isGallery) {
           echo "<li><a class='nav-link scrollto active' href='./gallery.php#hero'>Gallery</a></li>";
         } else
           echo "<li><a class='nav-link scrollto' href='./gallery.php'>Gallery</a></li>";
         ?>
-        <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        <li><a class="nav-link scrollto" href="./index.php#contact">Contact</a></li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
     </nav>

@@ -531,38 +531,38 @@ $isGallery = false;
             <tr>
               <th scope="row">ETIOS/SWIFT/DESIRE</th>
               <td>4+1</td>
-              <td>2200</td>
-              <td>2500</td>
+              <td>2700</td>
+              <td>3000</td>
             </tr>
             <tr>
               <th scope="row">TAVERA</th>
               <td>7+1</td>
-              <td>2900</td>
-              <td>3300</td>
+              <td>3400</td>
+              <td>3800</td>
             </tr>
             <tr>
               <th scope="row">INNOVA</th>
               <td>7+1</td>
-              <td>3500</td>
-              <td>3800</td>
+              <td>4000</td>
+              <td>4300</td>
             </tr>
             <tr>
               <th scope="row">TEMPO TRAVELLER</th>
               <td>14+1</td>
-              <td>4000</td>
               <td>4500</td>
+              <td>5000</td>
             </tr>
             <tr>
               <th scope="row">TEMPO TRAVELLER</th>
               <td>17+1</td>
-              <td>5000</td>
               <td>5500</td>
+              <td>6000</td>
             </tr>
             <tr>
               <th scope="row">TATA WINGER</th>
               <td>12+1</td>
-              <td>3500</td>
               <td>4000</td>
+              <td>4500</td>
             </tr>
           </tbody>
         </table>
