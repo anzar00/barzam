@@ -13,7 +13,7 @@
                 Srinagar - 190025 <br><br>
                 <strong>Phone:</strong><br>
                 <a href="tel:01944026395">0194 4026 395</a><br>
-                <a href="tel:1800886660">1800 886 660</a><br>
+                <a href="tel:18008866670">1800 886 6670</a><br>
                 <strong>Email:</strong> <br>
                 <a href="mailto:hightowncommunities@gmail.com">hightowncommunities@gmail.com</a><br>
                 <a href="mailto:barzam@hightowncommunities.com"><p>barzam@hightowncommunities.com</p></a>
